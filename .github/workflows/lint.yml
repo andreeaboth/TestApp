@@ -10,6 +10,10 @@ jobs:
   testing:
     name: Lint Check and Testing
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
 
     steps:
       - name: Clone Repo
@@ -28,7 +32,7 @@ jobs:
       - name: Run Android Linter
         run: ./gradlew lintDebug
 
-      # Step 4: Yun your unit tests
+      # Step 4: Run your unit tests
       - name: Run Unit Tests
         run: ./gradlew testDebugUnitTest
 
