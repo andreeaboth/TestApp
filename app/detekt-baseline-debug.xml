@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>UnsafeCallOnNullableType:FirstFragment.kt$FirstFragment$_binding!!</ID>
+    <ID>UnsafeCallOnNullableType:SecondFragment.kt$SecondFragment$_binding!!</ID>
+    <ID>UnusedPrivateMember:MainActivity.kt$MainActivity$private var test: String? = null</ID>
+    <ID>VarCouldBeVal:MainActivity.kt$MainActivity$private var test: String? = null</ID>
+  </CurrentIssues>
+</SmellBaseline>
