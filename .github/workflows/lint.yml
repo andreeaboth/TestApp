@@ -6,9 +6,6 @@ on:
     branches:
       - develop
 
-build:
-  maxIssues: 1
-
 jobs:
   testing:
     name: Lint Check and Testing
