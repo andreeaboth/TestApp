@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     private var test: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val b = test.equals("")
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

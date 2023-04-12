@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>UnusedPrivateMember:MainActivity.kt$MainActivity$private var test: String? = null</ID>
+  </CurrentIssues>
+</SmellBaseline>
